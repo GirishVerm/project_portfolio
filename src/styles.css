@@ -1,4 +1,27 @@
 .App {
-  font-family: sans-serif;
   text-align: center;
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+}
+
+.Tab-bar {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+.App-header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin-top: 10px;
 }

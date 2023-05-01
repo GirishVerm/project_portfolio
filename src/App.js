@@ -1,10 +1,15 @@
+import React from "react";
 import "./styles.css";
 
-export default function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <header className="Tab-bar">
+        <h1 className="title">My Portfolio</h1>
+        <p className="subtitle">Welcome to my personal website</p>
+      </header>
     </div>
   );
-}
+};
+
+export default App;
